@@ -3,5 +3,70 @@
 exports[`renders a snapshot 1`] = `
 <div
   className="App"
-/>
+>
+  <div
+    className="card"
+  >
+    <img
+      alt="card background"
+      className="background-img"
+      src="mike-scheid-xoYPV4oVQJI-unsplash.jpg"
+    />
+    <div
+      className="content"
+    >
+      <img
+        alt="Users profile"
+        className="profile-pic"
+        src="profile_pic_chase.jpeg"
+      />
+      <div
+        className="profile-pic-backdrop"
+      />
+      <div
+        className="name"
+      >
+        <h2>
+          Chase Jones
+        </h2>
+        <h5>
+          @chaseJones
+        </h5>
+      </div>
+      <p
+        className="aboutme"
+      >
+        I am a current Full Stack Developer Student at NC State University. I enjoy spending time with my family and friends, CODING, playing guitar and Hunting.
+      </p>
+      <div
+        className="social-links"
+      >
+        <a
+          href="https://github.com/jonescha1"
+        >
+          <box-icon
+            name="github"
+            type="logo"
+          />
+        </a>
+        <a
+          href="https://www.facebook.com/chase.jones.9465"
+        >
+          <box-icon
+            name="facebook"
+            type="logo"
+          />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/chase-jones-b0a163223/"
+        >
+          <box-icon
+            name="linkedin-square"
+            type="logo"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
 `;
